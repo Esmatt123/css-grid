@@ -73,11 +73,21 @@ body, html{
    grid-column-end: 13;
    grid-row: 7 / 11;
 }
+.box-12{
+   background-color: #9BC1BC;
+   grid-column-start: 1;
+   grid-column-end: 13;
+   grid-row: 11 / 13;
+   display: flex;
+   align-items: center;
+   font-size: 4em;
+   font-family: Helvetica, sans-serif;
+}
 
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 10px;
     height: 100%;
-    grid-template-rows: repeat(10, 1fr)
+    grid-template-rows: repeat(12, 1fr);
 }
